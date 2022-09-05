@@ -229,3 +229,42 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+
+/* media queries */
+
+@media screen and (min-width: 700px){
+    body {
+        font-size: 1.6rem;
+    }
+
+    header {
+        text-align: left;
+        padding-bottom: 1em;
+    }
+
+    header p {
+        display: inline-block;
+        margin-left: 2em;
+        font-size: 2rem;
+        vertical-align: top;
+    }
+
+    header ul {
+        
+        font-size: 2rem;
+    }
+
+    main table {
+        margin-inline: auto;
+    }
+
+    iframe, iframe~section {
+        width: 48%;
+        display: inline-block;
+        border-radius: 20px;
+        height: 300px;
+    }
+
+    
+}

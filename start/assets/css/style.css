@@ -263,8 +263,12 @@ footer a {
         width: 48%;
         display: inline-block;
         border-radius: 20px;
-        height: 300px;
+        height: 200px;
+    }
+    
+    section form fieldset {
+        display: inline-block;
     }
 
     
-}
+    

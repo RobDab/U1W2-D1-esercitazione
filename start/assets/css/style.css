@@ -245,7 +245,7 @@ footer a {
 
     header p {
         display: inline-block;
-        margin-left: 2em;
+        float:right;
         font-size: 2rem;
         vertical-align: top;
     }
@@ -254,6 +254,11 @@ footer a {
         
         font-size: 2rem;
     }
+
+    main{
+        padding-inline: 1.5em;
+    }
+
 
     main table {
         margin-inline: auto;
@@ -264,11 +269,21 @@ footer a {
         display: inline-block;
         border-radius: 20px;
         height: 200px;
+        
     }
     
-    section form fieldset {
+   iframe {
+    float: left;
+    margin-right: 1em;
+   }
+
+    /* aside */
+    aside div {
+        width: 30vw;
+        margin-left: 1em;
+        margin-inline: auto;
         display: inline-block;
+
     }
 
-    
-    
+}
